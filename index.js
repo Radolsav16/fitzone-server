@@ -19,7 +19,7 @@ import { createReview, getProductRating, getReviews } from './service/reviews.js
 
 
 const PORT = process.env.PORT || 3030;
-const Uri = process.env.MONGO_URI || 'mongodb://localhost:27017/fitzone-app';
+const Uri = 'mongodb+srv://todorovradoslav6:jsWCEmJavDiS6YYa@clusterfitzone.9af6p.mongodb.net/fitzone-app';
 const JWT_SECRET = process.env.JWT_SECRET || 'fitzone-secret_sdfhbksjfb8374'
 
 
